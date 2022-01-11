@@ -6,8 +6,8 @@ from selenium.webdriver.common.keys import Keys
 chrome_driver_path = '/Users/purush/Development/chromedriver'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-username = "_____anu_priya______"
-PASSWORD = "somi1417"
+username = "YOUR USERNAME"
+PASSWORD = "YOUR {PASSWORD}"
 
 insta_url = 'https://www.instagram.com'
 driver.get(insta_url)
