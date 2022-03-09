@@ -43,7 +43,7 @@ except NoSuchElementException:
 
 time.sleep(3)
 search_bar = driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input')
-search_bar.send_keys('vijay_official')
+search_bar.send_keys('YOUR FAV ACCOUNT')
 
 time.sleep(2)
 required_account = driver.find_element_by_xpath(
